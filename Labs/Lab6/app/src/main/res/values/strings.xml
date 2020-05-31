@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="key">AIzaSyDs-4-KyW6uQtYI6k4MkgZBJfx1kv1VAw0</string>
+    <string name="playlist1">PLWz5rJ2EKKc9ofd2f-_-xmUi07wIGZa1c</string>
+    <string name="channelid1">UCVHFbqXqoYvEWM1Ddxl0QDg</string>
+    <string name="channelid2">UCDkzI249yRSmKfcYJZOlQUw</string>
+    <string name="channelid3">UC1qWaT8_iPHSBYgB4T2ltuA</string>
+    <string name="baseUrl">https://www.googleapis.com/youtube/v3/</string>
+    <string name="description">Приложение является приложением-клиентом YouTube, созданным в учебных целях.</string>
+    <string name="main">Выберите плейлисты в боковом меню, чтобы посмотреть доступные видео.</string>
+</resources>

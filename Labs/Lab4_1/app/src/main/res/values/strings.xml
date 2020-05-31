@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab4_1</string>
+    <string name="call">Call</string>
+    <string name="web">View web pages</string>
+    <string name="map">View map</string>
+    <string name="mail">Send mail</string>
+    <string name="MsgCall">Your phone have no app can call</string>
+    <string name="MsgMap">Your phone have no app can view map</string>
+    <string name="MsgWeb">Your phone have no app can open web pages</string>
+    <string name="MsgMail">Your phone have no app can send mails</string>
+</resources>

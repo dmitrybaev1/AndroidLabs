@@ -1,0 +1,264 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2012 Google Inc. All Rights Reserved.
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9       http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.examples.youtubeapidemo"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+22-->D:\projects\sample\app\src\main\AndroidManifest.xml:22:3-44
+23        android:minSdkVersion="21"
+23-->D:\projects\sample\app\src\main\AndroidManifest.xml:22:3-44
+24        android:targetSdkVersion="26" />
+24-->D:\projects\sample\app\src\main\AndroidManifest.xml:22:13-42
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->D:\projects\sample\app\src\main\AndroidManifest.xml:24:3-64
+26-->D:\projects\sample\app\src\main\AndroidManifest.xml:24:20-62
+27
+28    <application
+28-->D:\projects\sample\app\src\main\AndroidManifest.xml:26:3-115:17
+29        android:debuggable="true"
+30        android:label="@string/youtube_api_demo"
+30-->D:\projects\sample\app\src\main\AndroidManifest.xml:26:16-56
+31        android:testOnly="true" >
+32        <activity
+32-->D:\projects\sample\app\src\main\AndroidManifest.xml:28:5-36:16
+33            android:name="com.examples.youtubeapidemo.YouTubeAPIDemoActivity"
+33-->D:\projects\sample\app\src\main\AndroidManifest.xml:30:9-47
+34            android:label="@string/youtube_api_demo" >
+34-->D:\projects\sample\app\src\main\AndroidManifest.xml:29:9-49
+35            <intent-filter>
+35-->D:\projects\sample\app\src\main\AndroidManifest.xml:31:7-34:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\projects\sample\app\src\main\AndroidManifest.xml:32:9-61
+36-->D:\projects\sample\app\src\main\AndroidManifest.xml:32:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\projects\sample\app\src\main\AndroidManifest.xml:33:9-69
+38-->D:\projects\sample\app\src\main\AndroidManifest.xml:33:19-66
+39            </intent-filter>
+40
+41            <meta-data
+41-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+42                android:name="@string/isLaunchableActivity"
+42-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+43                android:value="false" />
+43-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+44        </activity>
+45        <activity
+45-->D:\projects\sample\app\src\main\AndroidManifest.xml:38:5-46:16
+46            android:name="com.examples.youtubeapidemo.VideoWallDemoActivity"
+46-->D:\projects\sample\app\src\main\AndroidManifest.xml:40:9-46
+47            android:configChanges="orientation|screenSize|keyboardHidden"
+47-->D:\projects\sample\app\src\main\AndroidManifest.xml:43:9-70
+48            android:label="@string/videowall_demo_name"
+48-->D:\projects\sample\app\src\main\AndroidManifest.xml:39:9-52
+49            android:screenOrientation="landscape"
+49-->D:\projects\sample\app\src\main\AndroidManifest.xml:41:9-46
+50            android:theme="@style/BlackNoBarsTheme" >
+50-->D:\projects\sample\app\src\main\AndroidManifest.xml:42:9-48
+51            <meta-data
+51-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+52                android:name="@string/minVersion"
+52-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+53                android:value="11" />
+53-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+54            <meta-data
+54-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+55                android:name="@string/isLaunchableActivity"
+55-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+56                android:value="true" />
+56-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+57        </activity>
+58        <activity
+58-->D:\projects\sample\app\src\main\AndroidManifest.xml:48:5-54:16
+59            android:name="com.examples.youtubeapidemo.VideoListDemoActivity"
+59-->D:\projects\sample\app\src\main\AndroidManifest.xml:50:9-46
+60            android:configChanges="orientation|keyboardHidden|screenSize"
+60-->D:\projects\sample\app\src\main\AndroidManifest.xml:51:9-70
+61            android:label="@string/videolist_demo_name" >
+61-->D:\projects\sample\app\src\main\AndroidManifest.xml:49:9-52
+62            <meta-data
+62-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+63                android:name="@string/minVersion"
+63-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+64                android:value="13" />
+64-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+65            <meta-data
+65-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+66                android:name="@string/isLaunchableActivity"
+66-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+67                android:value="true" />
+67-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+68        </activity>
+69        <activity
+69-->D:\projects\sample\app\src\main\AndroidManifest.xml:56:5-63:16
+70            android:name="com.examples.youtubeapidemo.PlayerViewDemoActivity"
+70-->D:\projects\sample\app\src\main\AndroidManifest.xml:58:9-47
+71            android:configChanges="orientation|screenSize|keyboardHidden"
+71-->D:\projects\sample\app\src\main\AndroidManifest.xml:60:9-70
+72            android:label="@string/playerview_demo_name"
+72-->D:\projects\sample\app\src\main\AndroidManifest.xml:57:9-53
+73            android:screenOrientation="nosensor" >
+73-->D:\projects\sample\app\src\main\AndroidManifest.xml:59:9-45
+74            <meta-data
+74-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+75                android:name="@string/minVersion"
+75-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+76                android:value="8" />
+76-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+77            <meta-data
+77-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+78                android:name="@string/isLaunchableActivity"
+78-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+79                android:value="true" />
+79-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+80        </activity>
+81        <activity
+81-->D:\projects\sample\app\src\main\AndroidManifest.xml:65:5-71:16
+82            android:name="com.examples.youtubeapidemo.FragmentDemoActivity"
+82-->D:\projects\sample\app\src\main\AndroidManifest.xml:67:9-45
+83            android:configChanges="orientation|screenSize|keyboardHidden"
+83-->D:\projects\sample\app\src\main\AndroidManifest.xml:68:9-70
+84            android:label="@string/fragment_demo_name" >
+84-->D:\projects\sample\app\src\main\AndroidManifest.xml:66:9-51
+85            <meta-data
+85-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+86                android:name="@string/minVersion"
+86-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+87                android:value="11" />
+87-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+88            <meta-data
+88-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+89                android:name="@string/isLaunchableActivity"
+89-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+90                android:value="true" />
+90-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+91        </activity>
+92        <activity
+92-->D:\projects\sample\app\src\main\AndroidManifest.xml:73:5-79:16
+93            android:name="com.examples.youtubeapidemo.PlayerControlsDemoActivity"
+93-->D:\projects\sample\app\src\main\AndroidManifest.xml:75:9-51
+94            android:label="@string/player_controls_demo_name"
+94-->D:\projects\sample\app\src\main\AndroidManifest.xml:74:9-58
+95            android:windowSoftInputMode="stateHidden" >
+95-->D:\projects\sample\app\src\main\AndroidManifest.xml:76:9-50
+96            <meta-data
+96-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+97                android:name="@string/minVersion"
+97-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+98                android:value="8" />
+98-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+99            <meta-data
+99-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+100                android:name="@string/isLaunchableActivity"
+100-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+101                android:value="true" />
+101-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+102        </activity>
+103        <activity
+103-->D:\projects\sample\app\src\main\AndroidManifest.xml:81:5-89:16
+104            android:name="com.examples.youtubeapidemo.FullscreenDemoActivity"
+104-->D:\projects\sample\app\src\main\AndroidManifest.xml:83:9-47
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->D:\projects\sample\app\src\main\AndroidManifest.xml:85:9-70
+106            android:label="@string/fullscreen_demo_name"
+106-->D:\projects\sample\app\src\main\AndroidManifest.xml:82:9-53
+107            android:screenOrientation="sensor"
+107-->D:\projects\sample\app\src\main\AndroidManifest.xml:84:9-43
+108            android:theme="@style/BlackNoTitleBarTheme" >
+108-->D:\projects\sample\app\src\main\AndroidManifest.xml:86:9-52
+109            <meta-data
+109-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+110                android:name="@string/minVersion"
+110-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+111                android:value="8" />
+111-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+112            <meta-data
+112-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+113                android:name="@string/isLaunchableActivity"
+113-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+114                android:value="true" />
+114-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+115        </activity>
+116        <activity
+116-->D:\projects\sample\app\src\main\AndroidManifest.xml:91:5-99:16
+117            android:name="com.examples.youtubeapidemo.ActionBarDemoActivity"
+117-->D:\projects\sample\app\src\main\AndroidManifest.xml:93:9-46
+118            android:configChanges="keyboardHidden|orientation|screenSize"
+118-->D:\projects\sample\app\src\main\AndroidManifest.xml:94:9-70
+119            android:label="@string/action_bar_demo_name"
+119-->D:\projects\sample\app\src\main\AndroidManifest.xml:92:9-53
+120            android:screenOrientation="sensorLandscape"
+120-->D:\projects\sample\app\src\main\AndroidManifest.xml:96:9-52
+121            android:theme="@style/OverlayActionBarTheme" >
+121-->D:\projects\sample\app\src\main\AndroidManifest.xml:95:9-53
+122            <meta-data
+122-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+123                android:name="@string/minVersion"
+123-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+124                android:value="11" />
+124-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+125            <meta-data
+125-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+126                android:name="@string/isLaunchableActivity"
+126-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+127                android:value="true" />
+127-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+128        </activity>
+129        <activity
+129-->D:\projects\sample\app\src\main\AndroidManifest.xml:101:5-106:16
+130            android:name="com.examples.youtubeapidemo.StandalonePlayerDemoActivity"
+130-->D:\projects\sample\app\src\main\AndroidManifest.xml:103:9-53
+131            android:label="@string/standalone_player_demo_name" >
+131-->D:\projects\sample\app\src\main\AndroidManifest.xml:102:9-60
+132            <meta-data
+132-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+133                android:name="@string/minVersion"
+133-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+134                android:value="8" />
+134-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+135            <meta-data
+135-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+136                android:name="@string/isLaunchableActivity"
+136-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+137                android:value="true" />
+137-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+138        </activity>
+139        <activity
+139-->D:\projects\sample\app\src\main\AndroidManifest.xml:108:5-113:16
+140            android:name="com.examples.youtubeapidemo.IntentsDemoActivity"
+140-->D:\projects\sample\app\src\main\AndroidManifest.xml:110:9-44
+141            android:label="@string/intents_demo_name" >
+141-->D:\projects\sample\app\src\main\AndroidManifest.xml:109:9-50
+142            <meta-data
+142-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:7-72
+143                android:name="@string/minVersion"
+143-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:18-51
+144                android:value="8" />
+144-->D:\projects\sample\app\src\main\AndroidManifest.xml:44:52-70
+145            <meta-data
+145-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:7-85
+146                android:name="@string/isLaunchableActivity"
+146-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:18-61
+147                android:value="true" />
+147-->D:\projects\sample\app\src\main\AndroidManifest.xml:35:62-83
+148        </activity>
+149    </application>
+150
+151</manifest>
